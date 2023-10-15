@@ -1,5 +1,6 @@
 # copula-function
 A comprehensive early warning indicator based on copula function and ISSR-MDF model
+
 -t1" is the kernel density function and kernel distribution function used to construct the marginal density function and marginal distribution function files for the residuals of each measurement point.
 -t2 is the process of obtaining t copula and Gaussian copula density function and distribution function without using ISSR-MDF model, which also involves the calculation of AIC BIC.
 -t3 is a file of density and distribution functions of Gumbel copula, Frank copula and Clayton copula without ISSR-MDF model, which also involves the calculation of AIC BIC.
