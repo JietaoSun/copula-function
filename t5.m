@@ -3,7 +3,7 @@
 %% Weighted Version of t3!
 
 % 1. Extract weighted residual data for each monitoring point
-Monitor = readmatrix('Monitoring Point Residual Data - Formal 3.xlsx'); % Read data from the file 'Monitoring Point Residual Data.xlsx'
+Monitor = readmatrix('Monitoring point residual data_2.xlsx'); % Read data from the file 'Monitoring Point Residual Data.xlsx'
 X1_weighted = Monitor(:, 1); % Extract the first column of the matrix 'Monitor' as the residual data
 X2_weighted = Monitor(:, 2); % Extract the second column of the matrix 'Monitor' as the residual data
 X3_weighted = Monitor(:, 3); % Extract the third column of the matrix 'Monitor' as the residual data
